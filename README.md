@@ -2,7 +2,7 @@
 
 > Toss in a data file. Get back a detective report with anomalies, patterns, and insights.
 
-A [Claude Code](https://claude.ai/code) skill that automatically investigates CSV/JSON data files, discovers anomalies, hidden patterns, and interesting insights — outputting a detective-themed HTML report.
+An [OpenClaw](https://openclawskill.ai) skill that automatically investigates CSV/JSON data files, discovers anomalies, hidden patterns, and interesting insights — outputting a detective-themed HTML report.
 
 ## Features
 
@@ -18,7 +18,7 @@ A [Claude Code](https://claude.ai/code) skill that automatically investigates CS
 ## Installation
 
 ```bash
-claude skill add daizhouchen/data-detective
+npx @anthropic-ai/claw@latest skill add daizhouchen/data-detective
 ```
 
 ## How It Works
